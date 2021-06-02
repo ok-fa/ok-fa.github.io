@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="styles.css" rel="stylesheet">
+
+    <title>Find a Buddy</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">
+                    Home </a>
+            </li>
+            <li>
+                <a href="find_a_buddy.html">
+                    Find a Buddy</a>
+            </li>
+            <li>
+                <a href="locations.html">
+                    Locations</a>
+            </li>
+            <li>
+                <a href="matches.html">
+                    Matches</a>
+            </li>
+            <li>
+                <a href="discussions.html">
+                    Discussions</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <div class="find_buddy">
+        <h3>Find a Buddy search options:</h3>
+        <form action="/action_page.php">
+            <label for="dayvisiting">Day Visiting</label>
+            <input type="date" id="dayvisiting" name="dayvisiting" value=""><br><br>
+            <label for="parkvisiting">Park Visiting:</label>
+            <select id="parkvisiting" name="parkvisiting">
+                <option value="mk">Magic Kingdom</option>
+                <option value="epcot">Epcot</option>
+                <option value="dak">Disney's Animal Kingdom</option>
+                <option value="dhs">Disnehy Hollywood Studios</option>
+                <option value="universal">Universal Orlando</option>
+                <option value="iofa">Islands of Adventure</option>
+                <option value="sw">Sea World</option>
+            </select>
+            <br><br>
+            <label for="gender">Desired gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit" class="submit_buddy">
+        </form> 
+      
+    </div>
+
+
+</body>
+
+</html>
